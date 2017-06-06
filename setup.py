@@ -5,20 +5,19 @@ try:
 except:
     from distutils.core import setup
 
-VERSION = (0, 1, 2)
+VERSION = (0, 1, 3)
 
 if __name__ == '__main__':
 
     setup(
         name = 'python-vmguestlib',
-        version = '0.1.2',
+        version = '0.1.3',
         author='Dag Wieers',
         author_email='dag@wieers.com',
         url='http://github.com/dagwieers/vmguestlib',
-        download_url='http://github.com/dagwieers/vmguestlib/archive/0.1.2.tar.gz',
+        download_url='http://github.com/opentable/vmguestlib/archive/0.1.3.tar.gz',
         description='Python API for interacting with VMware\'s VMGuestLib SDK',
         license = 'GPLv2',
-#        install_requires=['ctypes', ],
         py_modules = ['vmguestlib', ],
         scripts=[ 'vmguest-stats', ],
         keywords = ['Virtual', 'vmware', 'ESX', 'ESXi', 'VMGuestLib', 'SDK', 'API'],
