@@ -10,7 +10,7 @@ VERSION = (0, 1, 3)
 if __name__ == '__main__':
 
     setup(
-        name = 'python-vmguestlib',
+        name = 'vmguestlib',
         version = '0.1.3',
         author='Dag Wieers',
         author_email='dag@wieers.com',
